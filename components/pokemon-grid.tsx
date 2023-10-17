@@ -15,7 +15,7 @@ export function PokemonGrid({ pokemonList }: PokemonGridProps) {
   const [searchText, setSearchText] = useState('');
 
   console.log(pokemonList);
-  // filter the text
+  // filter the text 1
   // {name: "pikachu", url:""}
   const searchFilter = (pokemonList: any) => {
     return pokemonList.filter((pokemon: any) =>
